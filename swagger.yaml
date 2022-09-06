@@ -71,8 +71,8 @@ paths:
             schema:
               $ref: ""
             example:
-              company: Zoom
-              position: full-stack engineer
+              company: zoom
+              position: ui designer
         required: true
       responses:
         "200":
@@ -142,9 +142,9 @@ paths:
             schema:
               $ref: ""
             example:
-              company: zoom
+              company: paypal
               position: full-stack engineer
-              status: hired
+              status: interview
         required: true
       responses:
         "200":
