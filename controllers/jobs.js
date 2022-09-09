@@ -53,7 +53,7 @@ const deleteJob = async (req, res) => {
     createdBy: userId,
   });
   if (!job) throw new NotFoundError(`No job found with id ${jobId}`);
-  res.status(StatusCodes.OK).send();
+  res.status(StatusCodes.OK).json({msg: "The job entry was deleted"});
 };
 
 module.exports = {

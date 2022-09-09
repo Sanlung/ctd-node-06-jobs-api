@@ -4,9 +4,10 @@
   "description": "A Node.js app for learning api",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "author": "",
+  "author": "Chung Kao",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
